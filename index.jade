@@ -1,3 +1,9 @@
+//- Mixin for IEs
+mixin ie(condition)
+  | <!--[!{condition}]>
+  block
+  | <![endif]-->
+
 doctype
 html.no-js
   head
@@ -9,27 +15,31 @@ html.no-js
     meta(name='Author', content='DeeSPe')
     link(rel='icon' href='favicon-96x96.png')
     //- favicon.ico only for IEs
-    //[if IE]>
-        <link rel="shortcut icon" href="favicon.ico"><![endif]
-    //- special metas for Apple iOS devices
+    +ie('if IE')
+      link(rel="shortcut icon" href="favicon.ico")
+    //- special tags for Apple iOS devices
     meta(name='apple-touch-fullscreen', content='YES')
     meta(name='apple-mobile-web-app-capable', content='YES')
     meta(name='apple-mobile-web-app-status-bar-style', content='black')
     link(rel='apple-touch-icon-precomposed' href='favicon-152x152.png')
-    //- special metas for Windows mobile devices
+    //- special tags for Windows mobile devices
     meta(name='msapplication-TileColor', content='#eee')
     meta(name='msapplication-TileImage', content='favicon-144x144.png')
     link(rel='stylesheet', href='css/main.min.css')
     //- Modernizr https://modernizr.com
     script(src='js/vendor/modernizr.min.js')
     //- html5shiv.js and respond.js for IEs
-    //[if lt IE 9]>
-      <script src="js/vendor/html5shiv.min.js"></script>
-      <script src="js/vendor/respond.min.js"></script><![endif]
+    +ie('if lt IE 9')
+      script(src="js/vendor/html5shiv.min.js")
+      script(src="js/vendor/respond.min.js")
   body
-    //[if lt IE 8]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]
+    +ie('if lt IE 8')
+      p.browserupgrade You are using an 
+        strong outdated
+        |  browser. Please 
+        a(href="http://browsehappy.com/") upgrade your browser
+        |  to improve your experience.
     //- Add your content here
 
     //- Add your scripts here
-    script(src="js/main.js")
+    script(src="js/main.min.js")
