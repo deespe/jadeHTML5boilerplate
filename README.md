@@ -1,8 +1,8 @@
 # jadeHTML5boilerplate
-[jadeHTML5boilerplate.jade](https://github.com/deespe/jadeHTML5boilerplate) is the perfect template to start your layout in Jade template language > v1.0.
+[jadeHTML5boilerplate](https://github.com/deespe/jadeHTML5boilerplate) is the perfect template to start your layout in Jade template language > v1.0.
 
 ## Description
-[jadeHTML5boilerplate.jade](https://github.com/deespe/jadeHTML5boilerplate) has a mixin for conditional comments for Internet Explorers (IEs) and also additional tags for favicons, Apple iOS devices and Windows mobile devices.
+[jadeHTML5boilerplate](https://github.com/deespe/jadeHTML5boilerplate) has a mixin for conditional comments for Internet Explorers (IEs) and also additional tags for favicons, Apple iOS devices and Windows mobile devices.
 
 All favicons must be .png files, exept for IEs. For IEs please provide an .ico file.
 
