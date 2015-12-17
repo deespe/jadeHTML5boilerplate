@@ -10,7 +10,7 @@ html.no-js
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1')
-    //
+    //-
       It's possible to lock the zoom of the website on mobile devices. Just replace the line before with the next line
       meta(name='viewport', content='width=device-width, initial-scale=1, user-scalable=no')
     //- Change this to your needs
@@ -19,19 +19,20 @@ html.no-js
     meta(name='Author', content='DeeSPe')
     //- Favicons
     link(rel='icon' href='favicon.png')
-    //- favicon.ico only for IEs
+    //- Special favicon only for IEs (! .ico file)
     +ie('if IE')
       link(rel="shortcut icon" href="favicon.ico")
-    //- special tags for Apple iOS devices (please see description)
-    meta(name='apple-touch-fullscreen', content='YES')
-    meta(name='apple-mobile-web-app-capable', content='YES')
-    meta(name='apple-mobile-web-app-status-bar-style', content='black')
+    //- Special favicons for Apple iOS devices
     link(rel='apple-touch-icon' href='favicon-60x60.png')
     link(rel='apple-touch-icon' sizes='76x76' href='favicon-76x76.png')
     link(rel='apple-touch-icon' sizes='120x120' href='favicon-120x120.png')
     link(rel='apple-touch-icon' sizes='152x152' href='favicon-152x152.png')
     link(rel='apple-touch-icon' sizes='167x167' href='favicon-167x167.png')
     link(rel='apple-touch-icon' sizes='180x180' href='favicon-180x180.png')
+    //- special tags for Apple iOS devices
+    meta(name='apple-touch-fullscreen', content='YES')
+    meta(name='apple-mobile-web-app-capable', content='YES')
+    meta(name='apple-mobile-web-app-status-bar-style', content='black')
     //- special tags for Windows mobile devices
     meta(name='msapplication-TileColor', content='#eee')
     meta(name='msapplication-TileImage', content='favicon-144x144.png')
