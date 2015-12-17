@@ -2,4 +2,21 @@
 This template can be used for developing with Jade template language
 
 ## Description
-jadeHTML5boilerplate.jade has a mixin for conditional comments for Internet Explorer and also additional tags for Apple iOS devices and Widnows mobile devices.
+jadeHTML5boilerplate.jade is the perfect template to start your layout in Jade template language.
+
+jadeHTML5boilerplate.jade has a mixin for conditional comments for Internet Explorers (IEs) and also additional tags for favicons, Apple iOS devices and Windows mobile devices.
+
+All favicons are .png files, exept for IEs. For IEs please provide an .ico file.
+Please provide favicons in the following sizes.
+
+- Standard favicon:
+  - 96x96 pixels
+  - for IEs: 32x32 pixels (! .ico file)
+- Apple iOS devices (retina):
+  - iPhone: 120x120 pixels
+  - iPad: 152x152 pixels
+- Apple iOS devices (non-retina):
+  - iPhone: 60x60 pixels
+  - iPad: 76x76 pixels
+- Microsoft devices:
+  - 144x144 pixels
