@@ -2,7 +2,6 @@
   "name": "jadeHTML5boilerplate",
   "version": "1.0.0",
   "description": "jadeHTML5boilerplate is the perfect template to start your layout in Jade template language > v1.0, especially for web apps.",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
