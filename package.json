@@ -1,0 +1,35 @@
+{
+  "name": "jadeHTML5boilerplate",
+  "version": "1.0.0",
+  "description": "jadeHTML5boilerplate is the perfect template to start your layout in Jade template language > v1.0, especially for web apps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deespe/jadeHTML5boilerplate.git"
+  },
+  "keywords": [
+    "HTML5",
+    "boilerplate",
+    "jade",
+    "webapp",
+    "ios",
+    "apple",
+    "windows"
+  ],
+  "author": "DeeSPe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deespe/jadeHTML5boilerplate/issues"
+  },
+  "homepage": "https://github.com/deespe/jadeHTML5boilerplate#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jade": "^0.15.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "jade": "^1.11.0",
+    "time-grunt": "^1.2.2"
+  }
+}
