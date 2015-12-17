@@ -10,8 +10,7 @@ html.no-js
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1')
-    //-
-      It's possible to lock the zoom of the website on mobile devices. Just replace the line before with the next line
+    //- It's possible to lock the zoom of the website on mobile devices. Just replace the line before with the next line
       meta(name='viewport', content='width=device-width, initial-scale=1, user-scalable=no')
     //- Change this to your needs
     title jadeHTML5boilerplate
@@ -22,20 +21,24 @@ html.no-js
     //- Special favicon only for IEs (! .ico file)
     +ie('if IE')
       link(rel="shortcut icon" href="favicon.ico")
-    //- Special favicons for Apple iOS devices
-    link(rel='apple-touch-icon' href='favicon-60x60.png')
-    link(rel='apple-touch-icon' sizes='76x76' href='favicon-76x76.png')
-    link(rel='apple-touch-icon' sizes='120x120' href='favicon-120x120.png')
-    link(rel='apple-touch-icon' sizes='152x152' href='favicon-152x152.png')
-    link(rel='apple-touch-icon' sizes='167x167' href='favicon-167x167.png')
-    link(rel='apple-touch-icon' sizes='180x180' href='favicon-180x180.png')
-    //- special tags for Apple iOS devices
-    meta(name='apple-touch-fullscreen', content='YES')
-    meta(name='apple-mobile-web-app-capable', content='YES')
-    meta(name='apple-mobile-web-app-status-bar-style', content='black')
-    //- special tags for Windows mobile devices
-    meta(name='msapplication-TileColor', content='#eee')
-    meta(name='msapplication-TileImage', content='favicon-144x144.png')
+    //- Special favicons for Apple iOS devices, please uncomment or unindet if needed
+      link(rel='apple-touch-icon' href='favicon-60x60.png')
+      link(rel='apple-touch-icon' sizes='76x76' href='favicon-76x76.png')
+      link(rel='apple-touch-icon' sizes='120x120' href='favicon-120x120.png')
+      link(rel='apple-touch-icon' sizes='152x152' href='favicon-152x152.png')
+      link(rel='apple-touch-icon' sizes='167x167' href='favicon-167x167.png')
+      link(rel='apple-touch-icon' sizes='180x180' href='favicon-180x180.png')
+    //- Special startup images for Apple iOS devices, please uncomment or unindet if needed
+      link(rel='apple-touch-startup-image' href='startup.png')
+    //- Other special tags for Apple iOS devices, please uncomment or unindet if needed
+      meta(name='apple-touch-fullscreen', content='yes')
+    //- Hiding Safari user interface components, please uncomment or unindet if needed
+      meta(name='apple-mobile-web-app-capable', content='yes')
+    //- Changing the status bar appearance, please uncomment or unindet if needed
+      meta(name='apple-mobile-web-app-status-bar-style', content='black')
+    //- special tags for Windows mobile devices, please uncomment or unindet if needed
+      meta(name='msapplication-TileColor', content='#eee')
+      meta(name='msapplication-TileImage', content='favicon-144x144.png')
     link(rel='stylesheet', href='css/main.min.css')
     //- Modernizr https://modernizr.com
     script(src='js/vendor/modernizr.min.js')
