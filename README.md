@@ -4,7 +4,7 @@
 ## Description
 [jadeHTML5boilerplate.jade](https://github.com/deespe/jadeHTML5boilerplate) has a mixin for conditional comments for Internet Explorers (IEs) and also additional tags for favicons, Apple iOS devices and Windows mobile devices.
 
-All favicons are .png files, exept for IEs. For IEs please provide an .ico file.
+All favicons must be .png files, exept for IEs. For IEs please provide an .ico file.
 
 Please provide favicons in the following sizes.
 
