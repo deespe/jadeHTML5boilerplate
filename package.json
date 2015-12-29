@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "jadeHTML5boilerplate is the perfect template to start your layout in Jade template language > v1.0, especially for web apps.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "grunt",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "grunt watch"
   },
   "repository": {
     "type": "git",
