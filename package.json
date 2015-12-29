@@ -25,10 +25,10 @@
   },
   "homepage": "https://github.com/deespe/jadeHTML5boilerplate#readme",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-jade": "^0.15.0",
-    "grunt-contrib-watch": "^0.6.1",
-    "jade": "^1.11.0",
-    "time-grunt": "^1.2.2"
+    "grunt": "latest",
+    "grunt-contrib-jade": "latest",
+    "grunt-contrib-watch": "latest",
+    "jade": "latest",
+    "time-grunt": "latest"
   }
 }
